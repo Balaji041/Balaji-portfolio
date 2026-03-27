@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-surface: #0d1117;
+  --color-surface-card: #161b27;
+  --color-surface-muted: #1e2530;
+}
+
+html,
 body {
   margin: 0;
+  background-color: #0d1117;
 }
 
 #root {
   min-height: 100svh;
+  background-color: #0d1117;
 }
